@@ -14,7 +14,7 @@ NULL
 #'
 #' @export
 get_peekjson <- function() {
-  url_json <- "https://raw.githubusercontent.com/langcog/peekbank/master/static/peekbank-schema.json"
+  url_json <- "https://raw.githubusercontent.com/langcog/peekbank/6315438bd56562a845a49d195e737cc6ac2d307e/static/peekbank-schema.json"
   peekjson <- jsonlite::fromJSON(url(url_json))
   return(peekjson)
 }
